@@ -2,6 +2,9 @@ import React, {useState} from "react";
 import { Ganre } from "./filterByGanre";
 import { ByArtist } from "./filterByArtist";
 import { ByOfYearOfRelease } from "./ByYearOfRelease";
+
+
+
 function Filters(){
     const [filter, setVisible] = useState(null);
     const toggleVisibility = (name) => setVisible(name);
